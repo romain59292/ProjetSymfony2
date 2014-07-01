@@ -25,7 +25,7 @@ class DefaultController extends Controller
 
             if ($form->isValid()) {
         // …   
-                var_dump($form);die;;
+                 print_r($client->getSubscriptionId());
                 }
             }
 
